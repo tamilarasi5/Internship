@@ -157,7 +157,7 @@ const InternshipForm = ({
                         <MenuItem value="6 months">6 Months</MenuItem>
                     </Select>
                 </FormControl>
-                <TextField
+                {/* <TextField
                     margin="dense"
                     label="Contact Number"
                     variant="outlined"
@@ -178,7 +178,7 @@ const InternshipForm = ({
                     onChange={(e) => setFormData({ ...formData, mailAddress: e.target.value })}
                     error={!!errors.mailAddress}
                     helperText={errors.mailAddress}
-                />
+                /> */}
                 <FormControl margin="dense" fullWidth className="form-control">
                     <FormLabel className="form-control-label">Available Days</FormLabel>
                     <FormGroup row>
