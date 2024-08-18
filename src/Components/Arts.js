@@ -90,7 +90,7 @@ const ArtsDrawingForm = () => {
 
     if (validateForm()) {
       try {
-        const response = await fetch('http://localhost:5000/api/student-form', {
+        const response = await fetch('https://saigubs.netlify.app/.netlify/functions/student-form', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',

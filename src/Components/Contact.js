@@ -58,7 +58,7 @@ const MainContent = () => {
         }
     
         try {
-            const response = await fetch('http://localhost:5000/submit-form', {
+            const response = await fetch('https://saigubs.netlify.app/.netlify/functions/submit-form', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
