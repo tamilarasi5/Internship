@@ -26,9 +26,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "client": "cd src && npm start",
-    "server": "cd server && npm start",
-    "start": "npm-run-all --parallel server src"
+    "build": "react-scripts build"
   },
   "eslintConfig": {
     "extends": [

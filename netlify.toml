@@ -1,0 +1,7 @@
+
+[build]
+  functions = "server"
+  publish = "src"
+
+[build.environment]
+  NODE_VERSION = "16"
